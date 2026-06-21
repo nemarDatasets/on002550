@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Differential brain mechanisms of selection and maintenance of information during working memory (MEG data)",
+  "description": "This magnetoencephalography (MEG) dataset investigates the differential neural mechanisms underlying selection and maintenance of information during working memory tasks. Data from 22 participants include MEG recordings from two sessions, structural MRI scans, and behavioral data from a working memory task and a one-back control task involving visual Gabor stimuli. The dataset supports investigation of how the brain selectively processes and maintains task-relevant information.",
+  "methods_description": "MEG data were acquired during two sessions per participant. Participants performed a working memory task (WorkMem) involving visual Gabor stimuli with varying spatial frequencies and orientations, and a one-back control task (LocaCue). Structural T1 MRI scans were obtained for anatomical reference. Head position indicator (HPI) coordinates were recorded in surface MRI coordinates using a neuronavigation system (Brainsight). Behavioral responses and reaction times were recorded synchronously with MEG acquisition using event triggers.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,27 @@
     "Ethan Buch": {},
     "Leonardo Cohen": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds002550.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "information selection"
+    },
+    {
+      "term": "neural mechanisms"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on002550",
       "identifier_type": "URL",
@@ -28,6 +45,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002550",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002550.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -43,18 +65,15 @@
     },
     {
       "funder_name": "FYSSEN Foundation"
-    },
-    {
-      "funder_name": "Philippe Foundation"
     }
   ],
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg",
     "anat"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "179.8 GB (6243 files)"
   ],
   "formats": [
     ".1_meg4",
@@ -80,41 +99,8 @@
     ".res4",
     ".segments",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This magnetoencephalography (MEG) dataset investigates the differential neural mechanisms underlying selection and maintenance of information during working memory tasks. The study comprises MEG recordings from 22 participants (one participant from the original cohort of 23 did not sign a data sharing agreement) performing a working memory task and a one-back control task, complemented by structural MRI and detailed behavioral data. The dataset includes two experimental sessions per participant with synchronized MEG acquisition, eye-tracking validation, and head position indicator coordinates for source localization.",
-  "methods_description": "MEG data were acquired during two sessions using the NIH MEG facility. Participants performed a working memory task involving visual Gabor stimuli (varying in spatial frequency and orientation) with directional cues, and a one-back control task (LocaCue). Behavioral responses and reaction times were recorded using MATLAB/Psychtoolbox 3. Head position indicator coordinates (nasion, left and right) were acquired via neuronavigation (Brainsight) and registered to structural MRI. Eye fixation was monitored throughout sessions.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "information selection"
-    },
-    {
-      "term": "visual perception"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "Gabor stimuli"
-    },
-    {
-      "term": "neuronavigation"
-    },
-    {
-      "term": "behavioral data"
-    },
-    {
-      "term": "eye-tracking"
-    }
-  ],
-  "source_hash": "723c9efbac851150ffa61859c8f00fadd014b42ccf6a4abaf0a12628f04bdc59"
+  "source_hash": "5d4c4fb4ddc62814122222b25d061117e1e16d0bc4a00ee9646de09dd696cb4d"
 }
