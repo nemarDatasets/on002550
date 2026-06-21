@@ -4,3 +4,4 @@
 **/sub-*/ses-*/meg/sub-*_ses-*_task-*_meg.ds/hz*.ds/BadChannels
 **/sub-*/ses-*/behavdata/*
 **/sub-*/ses-*/hpi/*
+.nemar/
