@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002550-blue)](https://doi.org/10.82901/nemar.on002550)
+
 OpenNeuro curator note: This dataset was previously accessible at ds001750. The dataset was reuploaded due to privacy considerations. 
 
 # Data folder corresponding to [this manuscript](https://www.biorxiv.org/content/early/2018/03/16/283234)
