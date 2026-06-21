@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Differential brain mechanisms of selection and maintenance of information during working memory (MEG data)",
-  "description": "This magnetoencephalography (MEG) dataset investigates the differential neural mechanisms underlying selection and maintenance of information during working memory tasks. Data from 22 participants include MEG recordings from two sessions, structural MRI scans, and behavioral data from a working memory task and a one-back control task involving visual Gabor stimuli. The dataset supports investigation of how the brain selectively processes and maintains task-relevant information.",
-  "methods_description": "MEG data were acquired during two sessions per participant. Participants performed a working memory task (WorkMem) involving visual Gabor stimuli with varying spatial frequencies and orientations, and a one-back control task (LocaCue). Structural T1 MRI scans were obtained for anatomical reference. Head position indicator (HPI) coordinates were recorded in surface MRI coordinates using a neuronavigation system (Brainsight). Behavioral responses and reaction times were recorded synchronously with MEG acquisition using event triggers.",
+  "description": "This magnetoencephalography (MEG) dataset investigates the differential neural mechanisms underlying selection and maintenance of information during working memory tasks. Data from 22 participants include MEG recordings across two sessions, structural MRI, and detailed behavioral measures from a working memory task and a one-back control task involving visual Gabor stimuli. The dataset supports investigation of how the brain selectively maintains task-relevant information while filtering distractions.",
+  "methods_description": "MEG data were acquired across two sessions per participant. Participants performed a working memory task requiring maintenance and comparison of visual Gabor stimuli (varying in spatial frequency and orientation) following directional cues, and a one-back control task. Structural T1 MRI was acquired for anatomical reference. Head position indicator (HPI) coordinates were recorded in surface MRI space using neuronavigation (Brainsight). Behavioral responses and reaction times were recorded synchronously with MEG acquisition using event triggers.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,10 +29,10 @@
       "term": "visual perception"
     },
     {
-      "term": "information selection"
+      "term": "cognitive neuroscience"
     },
     {
-      "term": "neural mechanisms"
+      "term": "brain imaging"
     }
   ],
   "related_identifiers": [
