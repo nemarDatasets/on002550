@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Differential brain mechanisms of selection and maintenance of information during working memory (MEG data)",
-  "description": "This magnetoencephalography (MEG) dataset investigates the differential neural mechanisms underlying selection and maintenance of information during working memory tasks. Data from 22 participants include MEG recordings across two sessions, structural MRI, and detailed behavioral measures from a working memory task and a one-back control task involving visual Gabor stimuli. The dataset supports investigation of how the brain selectively maintains task-relevant information while filtering distractions.",
-  "methods_description": "MEG data were acquired across two sessions per participant. Participants performed a working memory task requiring maintenance and comparison of visual Gabor stimuli (varying in spatial frequency and orientation) following directional cues, and a one-back control task. Structural T1 MRI was acquired for anatomical reference. Head position indicator (HPI) coordinates were recorded in surface MRI space using neuronavigation (Brainsight). Behavioral responses and reaction times were recorded synchronously with MEG acquisition using event triggers.",
+  "description": "MEG dataset from 22 participants performing a visual working memory task in which two Gabor stimuli were presented and a retro-cue indicated which stimulus and attribute to maintain for comparison with a probe. Each participant was recorded in two MEG sessions, with a one-back control task and anatomical T1 MRI. The data support investigation of the distinct brain mechanisms of selecting and maintaining information in working memory.",
+  "methods_description": "MEG was recorded across two sessions per participant at the NIH MEG facility. Participants performed a working memory task (WorkMem) with Gabor stimuli varying in spatial frequency, orientation and phase, and a one-back control task (LocaCue). Stimuli were presented with Psychtoolbox 3 in Matlab, with eye fixation monitored. Head position indicator coordinates were acquired with the Brainsight neuronavigation system and registered to T1 MRI.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,16 +23,25 @@
       "term": "working memory"
     },
     {
-      "term": "attention"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
-      "term": "visual perception"
+      "term": "retro-cue"
     },
     {
-      "term": "cognitive neuroscience"
+      "term": "Gabor stimuli"
     },
     {
-      "term": "brain imaging"
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "Memory, Short-Term",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
     }
   ],
   "related_identifiers": [
@@ -42,17 +51,20 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002550",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds002550.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on002550",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
+    {
+      "funder_name": "NINDS/HCPS"
+    },
     {
       "funder_name": "FYSSEN foundation"
     },
@@ -60,11 +72,10 @@
       "funder_name": "Bettencourt Schueller Foundation"
     },
     {
-      "funder_name": "NIH",
-      "award_number": "NINDS/HCPS"
+      "funder_name": "National Institute of Neurological Disorders and Stroke"
     },
     {
-      "funder_name": "FYSSEN Foundation"
+      "funder_name": "Philippe Foundation"
     }
   ],
   "resource_type_specific": "MEG Dataset",
@@ -73,7 +84,7 @@
     "anat"
   ],
   "sizes": [
-    "179.8 GB (6243 files)"
+    "167 GB (6243 files)"
   ],
   "formats": [
     ".1_meg4",
